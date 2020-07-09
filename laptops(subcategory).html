@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Laptops</title>
+    <link rel="stylesheet" href="css/browse.css">
+    <link rel="stylesheet" href="css/laptops(sub).css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <script>
+        var images = ['images/mba1.jpg', 'images/mba2.jpg', 'images/mba3.jpg', 'images/mba4.jpg', 'images/mba5.jpg']
+        var i = 0;
+        function pictureChangeRight() {
+            if (i < images.length - 1)
+                i = i + 1;
+            document.getElementById("iphonepic").src = images[i];
+        }
+        function pictureChangeLeft() {
+            if (i >= 0 + 1)
+                i = i - 1;
+            document.getElementById("iphonepic").src = images[i];
+        }
+    </script>
+
+    <div id="wrapper1">
+        <nav>
+            <ul id="ul1">
+                    <li><a class="bar" href="guide.html">Home</a></li>
+                    <li><a class="bar" href="categories.html">Categories</a></li>
+                    <li><a class="bar" href="comparison.html">Compare</a></li>
+                    <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                    <li><a class="bar" href="faqs.html">FAQs</a></li>
+                    <li><a class="bar" href="register.html">Register</a></li>
+                    <li><a class="bar" href="login.html">Log in</a></li>
+                    <li><a class="bar" href="support.html">Support</a></li>
+                    <li><a class="bar" href="main.html">Feedback</a></li>
+                    <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                    <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="wrapper2">
+        <header>
+            Laptops
+        </header>
+    </div>
+    <main>
+
+
+        <div id="wrapper3">
+            <h3>1</h3>
+            <h4>&nbsp;&nbsp;&nbsp; Macbook Air</h4>
+            <img src="images/mba.jpg" class="imgframe" alt="galaxys9">
+            <p>MacBook Air is a thin, lightweight laptop from Apple.  Because it is a full-sized notebook but only weighs three pounds, the laptop falls into a category that vendors are currently calling 'ultraportable.'</p>
+
+            <table>
+                <tr>
+                    <th colspan="3" style="font-size:20px;">
+                        Specifications
+                    </th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th class="til">Macbook Air 2018</th>
+                    <th class="til">Mabook Air 2017</th>
+                </tr>
+
+                <tr>
+                    <td class="til">Price</td>
+                    <td>$1,199</td>
+                    <td>$999</td>
+                </tr>
+                <tr>
+                    <td class="til">Processor</td>
+                    <td>1.6GHz dual-core Intel Core i5 processor (eigth generation)</td>
+                    <td>1.3GHz Core i5 or 1.4GHz Core i7 processor (seventh generation)</td>
+                </tr>
+                <tr>
+                    <td class="til">Screen</td>
+                    <td>13.3in (2560 x 1600 at 227ppi) 'Retina' LED screen</td>
+                    <td>12in (2304 x 1440 at 226ppi) 'Retina' LED screen</td>
+                </tr>
+                <tr>
+                    <td class="til">Storage</td>
+                    <td>128/256/512GB/1.5TB SSD storage</td>
+                    <td>256/512GB SSD storage</td>
+                </tr>
+                <tr>
+                    <td class="til">Front Camera</td>
+                    <td>FaceTime HD camera (720p)</td>
+                    <td>FaceTime camera (480p)</td>
+                </tr>
+                <tr>
+                    <td class="til">Speakers</td>
+                    <td>Stereo speakers, 3 x microphones, 3.5mm headphone jack</td>
+                    <td>Stereo speakers, dual microphones, 3.5mm headphone jack</td>
+                </tr>
+                <tr>
+                    <td class="til">Battery</td>
+                    <td>50.3-watt-hour battery</td>
+                    <td>41.4-watt-hour battery</td>
+                </tr>
+
+            </table>
+        </div>
+        <p id="galtil">Gallery</p>
+
+        <div id="gallery">
+            <img src="images/mba1.jpg" id="iphonepic" alt="iphone_picture">
+            <input type="button" id="leftB" value="left" onclick="pictureChangeLeft()">
+            <input type="button" id="rightB" value="right" onclick="pictureChangeRight()">
+        </div>
+
+        <div id="wrapper4">
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="wrapper5">
+            <div id="w5-1">
+                Eguide
+            </div>
+
+            <div id="w5-2">
+                Press<br><br>
+                Contact<br><br>
+                Follow Us<br>
+
+            </div>
+
+            <div id="w5-3">
+                Legal
+                <p id="legal">Terms<br>
+                    Privacy
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mobiles</title>
+    <link rel="stylesheet" href="css/browse.css">
+    <link rel="stylesheet" href="css/mobiles(sub).css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <script>
+        var images = ['images/galaxys91.jpg', 'images/galaxys92.jpg', 'images/galaxys93.jpg', 'images/galaxys94.jpg', 'images/galaxys95.jpg']
+        var i = 0;
+        function pictureChangeRight() {
+            if (i < images.length - 1)
+                i = i + 1;
+            document.getElementById("iphonepic").src = images[i];
+        }
+        function pictureChangeLeft() {
+            if (i >= 0 + 1)
+                i = i - 1;
+            document.getElementById("iphonepic").src = images[i];
+        }
+    </script>
+
+    <div id="wrapper1">
+        <nav>
+            <ul id="ul1">
+                    <li><a class="bar" href="guide.html">Home</a></li>
+                    <li><a class="bar" href="categories.html">Categories</a></li>
+                    <li><a class="bar" href="comparison.html">Compare</a></li>
+                    <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                    <li><a class="bar" href="faqs.html">FAQs</a></li>
+                    <li><a class="bar" href="register.html">Register</a></li>
+                    <li><a class="bar" href="login.html">Log in</a></li>
+                    <li><a class="bar" href="support.html">Support</a></li>
+                    <li><a class="bar" href="main.html">Feedback</a></li>
+                    <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                    <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="wrapper2">
+        <header>
+            Mobile Phones
+        </header>
+    </div>
+    <main>
+
+
+        <div id="wrapper3">
+            <h3>1</h3>
+            <h4>&nbsp;&nbsp;&nbsp; Galaxy S9</h4>
+            <img src="images/galaxys9.jpg" class="imgframe" alt="galaxys9">
+            <p>The latest flagship phone from samsung improves upon the Galaxy S8 released last year. Its processor is the SD 845 based on a new 12nm process</p>
+
+            <table>
+                <tr>
+                    <th colspan="3" style="font-size:20px;">
+                        Specifications
+                    </th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th class="til">Galaxy S9</th>
+                    <th class="til">Galaxy S8</th>
+                </tr>
+
+                <tr>
+                    <td class="til">Price</td>
+                    <td>$720</td>
+                    <td>$720</td>
+                </tr>
+                <tr>
+                    <td class="til">Processor</td>
+                    <td>SD 845</td>
+                    <td>Sd 835</td>
+                </tr>
+                <tr>
+                    <td class="til">Screen</td>
+                    <td>147.7 x 68.7 x 8.5 mm (5.81 x 2.70 x 0.33 in)</td>
+                    <td>148.9 x 68.1 x 8 mm (5.86 x 2.68 x 0.31 in)</td>
+                </tr>
+                <tr>
+                    <td class="til">Storage</td>
+                    <td>64/128/256 GB, 4 GB RAM</td>
+                    <td>64 GB, 4 GB RAM</td>
+                </tr>
+                <tr>
+                    <td class="til">Rear Camera</td>
+                    <td>12 MP, f/1.5-2.4, 26mm (wide), 1/2.55", 1.4µm, OIS, dual pixel PDAF</td>
+                    <td>12 MP, f/1.7, 26mm (wide), 1/2.55", 1.4µm, OIS, dual pixel PDAF</td>
+                </tr>
+                <tr>
+                    <td class="til">Front Camera</td>
+                    <td>8 MP, f/1.7, 25mm (wide), 1/3.6", 1.22µm, AF</td>
+                    <td>8 MP, f/1.7, 25mm (wide), 1/3.6", 1.22µm, AF</td>
+                </tr>
+                <tr>
+                    <td class="til">Colors</td>
+                    <td>Midnight Black, Coral Blue, Titanium Gray</td>
+                    <td>Midnight Black, Orchid Gray, Arctic Silver</td>
+                </tr>
+                <tr>
+                    <td class="til">Weight</td>
+                    <td>163 g (5.75 oz)</td>
+                    <td>155 g (5.47 oz)</td>
+                </tr>
+
+            </table>
+        </div>
+        <p id="galtil">Gallery</p>
+
+        <div id="gallery">
+            <img src="images/galaxys91.jpg" id="iphonepic" alt="iphone_picture">
+            <input type="button" id="leftB" value="left" onclick="pictureChangeLeft()">
+            <input type="button" id="rightB" value="right" onclick="pictureChangeRight()">
+        </div>
+
+        <div id="wrapper4">
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="wrapper5">
+            <div id="w5-1">
+                Eguide
+            </div>
+
+            <div id="w5-2">
+                Press<br><br>
+                Contact<br><br>
+                Follow Us<br>
+
+            </div>
+
+            <div id="w5-3">
+                Legal
+                <p id="legal">Terms<br>
+                    Privacy
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

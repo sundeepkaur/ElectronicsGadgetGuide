@@ -1,0 +1,6 @@
+var mobiles = { a: "Performance", b: "Display", c: "Storage", d: "Camera", e: "Battery", f: "Ram", g: "Launch"};
+var iphonexs={ a:"Hexa Core", b: "5.8 in (14.73 cm)", c: "256 GB", d: "12MP + 12MP", e: "2658 mAH", f: "4GB", g: "September 28, 2018" };
+var galaxys9={ a:"Octa Core", b: "5.8 in (14.73 cm)", c: "128 GB", d: "12MP", e: "3000 mAH", f: "4GB", g: "March 28, 2018" };
+var laptops = { a: "Processor", b: "Display", c: "Storage", d: "GPU", e: "Battery", f: "Ram", g: "OS", h: "Launch"};
+var macbook={ a:"8th Gen Core i5", b: "2560*1600", c: "SSD(1.5 TB)", d: "N/A", e: "13 Hours", f: "16GB", g: "Mac", h: "26-11-2018"};
+var surface6={ a:"8th Gen Core i5", b: "2736*1824", c: "SSD(128 GB)", d: "Intel UHD 620", e: "13.5 Hours", f: "8GB", g: "Windows 10", h: "04-12-2018"};

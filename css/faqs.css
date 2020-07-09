@@ -1,0 +1,184 @@
+/* basic setup */
+* {
+    margin: 0;
+    padding: 0; }
+
+html { background-color:white; }
+
+
+/* the styles for the header, main content and footer */
+
+
+#wrapper {
+    background-color: white;
+    font-family: sans-serif;
+    display: grid;
+    width: 1515px;
+    grid-template-rows: 90px 1050px;
+}
+
+/* the styles for the headers heading*/
+
+#wrapper1
+{
+    background-color: #00628B;
+    height: 55px;
+    width: 1515px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper1 .topLeftHeading{
+    float: left;
+    color: #E6E6DC;
+    padding: 3px 26px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/* the styles for the headers navigation bar */
+
+#wrapper1 nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 3%;
+    justify-content: flex-end;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#wrapper1 nav ul li a,
+#wrapper1 nav ul li a:after,
+#wrapper1 nav ul li a:before {
+    transition: all .5s;
+}
+
+#wrapper1 nav ul li a:hover {
+    color: #E6E6DC;
+    text-decoration: underline;
+}
+
+.con:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+
+.bar{
+    color: #81A594;
+    text-decoration: none;
+    font-weight: bold;
+    display:  block;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* the styles for the image*/
+
+#image {
+    width: 100%;
+    height: 350px;
+    margin-top: .5em;
+}
+
+#top-Center-heading {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana;
+    color: #2B08A1;
+    font-size: 25px;
+}
+
+#topCenterHeading{
+    font-size: 20px;
+
+}
+
+/* the styles for the main content */
+
+#mainContent h2{
+    margin-left: 1em;
+    font-family: Calibri;
+    color: #2B08A1;
+    font-size: 45px;
+    border-bottom: 3px solid #D9D6D3;
+    margin-right: 22px;
+    margin-bottom: 1em;
+}
+
+/* the styles for the collapsible div */
+
+.collapsible {
+    background-color: white;
+    color: #2B08A1;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-bottom:1px solid #D9D6D3;
+}
+
+.active, .collapsible:hover {
+    background-color: whitesmoke;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: #2B08A1;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: whitesmoke;
+    color: #918F8D;
+    font-size: 15px;
+}
+
+/* the styles for the footer */
+
+#wrapper5{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00628B;
+    height:10em;
+    border-top-style: solid;
+    border-top-color: #81A594;
+    color:#81A594;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+#w5-1{
+    font-size:30px;
+    font-weight:bold;
+    padding-top:20px;
+    padding-left:20px;
+    width:900px;
+}
+
+#w5-2{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}
+#w5-3{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}

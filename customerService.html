@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Contact Us Page</title>
+    <meta charset="UTF-8">
+
+    <!--/**
+   * Meta Tag
+   */-->
+
+    <meta name="description" content="Contact Us Page with form and different links to navigate to other pages">
+    <meta name="keywords" content="contact us , home, about us">
+
+    <!--/**
+     Links to external css file and normalise.css file
+    */-->
+
+    <link rel="shortcut icon" href="images/images.png">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/customerService.css">
+
+</head>
+<body>
+<div id="header">
+
+    <!-- /**
+     * Div tag with div containing Website heading and navigation bar at top of the page
+     */-->
+
+    <div class="topLeftHeading">
+        <h2>EGuide</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a class="bar" href="guide.html">Home</a></li>
+            <li><a class="bar" href="categories.html">Categories</a></li>
+            <li><a class="bar" href="comparison.html">Compare</a></li>
+            <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+            <li><a class="bar" href="faqs.html">FAQs</a></li>
+            <li><a class="bar" href="register.html">Register</a></li>
+            <li><a class="bar" href="login.html">Log in</a></li>
+            <li><a class="bar" href="support.html">Support</a></li>
+            <li><a class="bar" href="main.html">Feedback</a></li>
+            <li><a class="bar" href="customerService.html">Contact Us</a></li>
+            <li><a class="bar" href="index.html">About</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<div id="wrapper">
+
+    <!--/**
+    * wrapper div tag contains the image, form and aside div with ways to us like through linkedin facebook twitter email etc
+    */-->
+
+    <div id ="image">
+        <img src="images/contact.jpg" alt="image of laptop where someone is shown as if typing in something" height="350" width="1200" />
+    </div>
+
+    <div id ="mainContent">
+
+        <p id="firstChild">We Look Forward to hearing from you !</p>
+        <p id="secondChild">We are here to answer any questions you may have about our services.<br> Reach out to us and we'll respond as soon as we can.</p>
+
+        <!--/**
+        *    contact us form using form tag
+        */-->
+
+        <form id="contactF" name="reg" method="get" action="contactform.html">
+            <h2>Contact Form</h2>
+            <label for="userName">Name: </label><input  id="userName" name="name" placeholder="Enter Name here..." title="Enter Name here" autofocus/><span style="color:red;" id="errfname">*</span><br/>
+            <label for="userEmail">E-mail: </label><input type="email" id="userEmail" name="email"  placeholder="Enter Email..." title="Enter Email here" /><span style="color:red;" id="erremail">*</span><br/>
+            <label for="userPhNo">Phone Number:  </label><input id="userPhNo" name="phNo" placeholder="Enter Phone number..." /><span style="color:red;" id="errphno">*</span><br/>
+            <label for="userOption">Option: </label>
+            <select id="userOption" name="option">
+                <option selected>Select an option</option>
+            </select><span style="color:red;" id="erroption">*</span><br/>
+            <input type="radio" name="radio" id="male" value="male"><label for="male">Male </label><br/>
+            <input type="radio" name="radio" id="female" value="female"><label for="female">Female </label><br/>
+            <input type="radio" name="radio" id="other" value="other" checked><label for="other">Other </label><br/>
+            <label for="userText">Message </label><br/>
+            <textarea id="userText" name="textarea" rows="5" cols="50" placeholder="Please Enter your message here.........."></textarea><span style="color:red;" id="errtexttarea">*</span>&nbsp;<br/>
+            <input type="button" value="Send" id="submitButton"/>
+            <input type="reset" value="Reset" id="resetButton"/>
+        </form>
+
+    </div>
+
+    <!--/**
+    *    aside div using for different ways to contact us
+    */-->
+
+    <div id="aside">
+
+        <nav class="rightNav" >
+            <ul id="first">
+                <li><img src="images/email.jpg" alt="image of laptop where someone is shown as if typing in something" height="55" width="55" />&nbsp;&nbsp;&nbsp;
+                    <a  id="l2" href="#">Email: electronicBuyingGuide@gmail.com</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="rightNav" >
+            <ul id="second">
+                <li><img src="images/telephone.jpg" alt="image of laptop where someone is shown as if typing in something" height="55" width="55" />&nbsp;&nbsp;&nbsp;
+                    Contact Number: 1-800-555-6666
+                </li>
+            </ul>
+        </nav>
+        <address class="rightNav" >
+            <ul id="third">
+                <li><img src="images/address.png" alt="image of laptop where someone is shown as if typing in something" height="55" width="55" />&nbsp;&nbsp;&nbsp;
+                    Electronic Buying Guide Co.
+                </li>
+                <li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7283 RedFox Rd.<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brampton ON. L5T 3K2
+                </li>
+            </ul>
+        </address>
+        <nav class="rightNav">
+            <ul id="fourth">
+                <li>
+                    <img src="images/linkedIn.jpg" alt="image of laptop where someone is shown as if typing in something" height="55" width="55" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="images/Twitter.png" alt="image of laptop where someone is shown as if typing in something" height="55" width="55" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="images/facebook.png" alt="image of laptop where someone is shown as if typing in something" height="55" width="55" />
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+</div>
+
+<!--/**
+* Footer using footer div tag
+*/-->
+
+<footer>
+    <div id="wrapper5">
+        <div id="w5-1">
+            Eguide
+        </div>
+        <div id="w5-2">
+            Press<br><br>
+            Contact<br><br>
+            Follow Us<br>
+        </div>
+        <div id="w5-3">
+            Legal<br><br>
+            Terms<br><br>
+            Privacy<br>
+        </div>
+    </div>
+</footer>
+
+<!--/**
+ Link to external js file
+*/-->
+
+<script src="javascript/customerService.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison</title>
+    <link rel="stylesheet" href="css/comparison.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="javascript/testj.json"></script>
+</head>
+
+<body>
+
+    <div id="wrapper1">
+        <nav>
+            <ul id="ul1">
+                    <li><a class="bar" href="guide.html">Home</a></li>
+                    <li><a class="bar" href="categories.html">Categories</a></li>
+                    <li><a class="bar" href="comparison.html">Compare</a></li>
+                    <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                    <li><a class="bar" href="faqs.html">FAQs</a></li>
+                    <li><a class="bar" href="register.html">Register</a></li>
+                    <li><a class="bar" href="login.html">Log in</a></li>
+                    <li><a class="bar" href="support.html">Support</a></li>
+                    <li><a class="bar" href="main.html">Feedback</a></li>
+                    <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                    <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div id="wrapper2">
+            <header>
+                Comparison
+            </header>
+            <p id="david"><a href="comparison_detail.html">(see detailed comparison)</a></p>
+
+            <label for="type-select">Pick product type:</label>
+            <select id="type-select">
+                <option value="1">Mobile Phones</option>
+                <option value="2">Laptops</option>
+            </select>
+
+            <input type=button id="selButton" value="Go" onclick="nextSelect()">
+            
+            <div id="df">
+            <div id="wrapper21" style="display:none">
+                <label for="type-select-2">Pick the first product:</label>
+                <select class="type-select-2">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                </select>
+            </div>
+
+            <div id="wrapper22" style="display:none">
+                <label for="type-select-2">Pick the second product:</label>
+                <select class="type-select-2">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                </select>
+            </div>
+            </div>
+
+            <input type=button id="compareitems" value="Compare" onclick="compare()" style="display:none">
+            
+            <div id="tf">
+            <div class="table" style="display:none"></div>
+            <div class="table" style="display:none"></div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="javascript/comparison.js"></script>
+
+    <div id="wrapper4">
+
+    </div>
+
+
+    <footer>
+
+        <div id="wrapper5">
+            <div id="w5-1">
+                Eguide
+            </div>
+
+            <div id="w5-2">
+                Press<br><br>
+                Contact<br><br>
+                Follow Us<br>
+
+            </div>
+
+            <div id="w5-3">
+                Legal
+                <p id="legal">Terms<br>
+                    Privacy
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

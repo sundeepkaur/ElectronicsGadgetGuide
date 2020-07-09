@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Compare camera models</title>
+    <link rel="stylesheet" href="css/camerastyle.css">
+    <link rel="icon" href="icon.jpg">
+
+</head>
+
+<body>
+    <div id="wrapper1">
+        <nav>
+            <ul id="list">
+                    <li><a class="bar" href="guide.html">Home</a></li>
+                    <li><a class="bar" href="categories.html">Categories</a></li>
+                    <li><a class="bar" href="comparison.html">Compare</a></li>
+                    <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                    <li><a class="bar" href="faqs.html">FAQs</a></li>
+                    <li><a class="bar" href="register.html">Register</a></li>
+                    <li><a class="bar" href="login.html">Log in</a></li>
+                    <li><a class="bar" href="support.html">Support</a></li>
+                    <li><a class="bar" href="main.html">Feedback</a></li>
+                    <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                    <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="timing">
+        <script>
+            const today = new Date();
+            document.write("Today is ");
+            document.write(today.toDateString());
+        </script>
+        <script type="text/javascript">
+            function startTime() {
+                var today = new Date();
+                var h = today.getHours();
+                var m = today.getMinutes();
+                var s = today.getSeconds();
+
+                m = checkTime(m);
+                s = checkTime(s);
+                document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+                t = setTimeout('startTime()', 500);
+            }
+
+            function checkTime(i) {
+                if (i < 10) { i = "0" + i }
+                return i
+            }
+        </script>
+
+        <body onload="startTime()">
+            <div id="txt"></div>
+        </body>
+    </div>
+
+    <h1>Compare camera models</h1>
+    <div class="notice">
+        <p>In view of the gradual decline in digital camera use,
+            this site mainly introduces and compares entry-level Canon cameras.</p>
+    </div>
+    <main>
+        <div id="camera information">
+            <fieldset>
+                <legend>EOS Rebel T100</legend>
+                <div class="T100">
+                    <h4>EOS Rebel T100</h4>
+                    <p>Striking photos, cinematic movies</p>
+                    <p>Easily capture stunning images, with natural background blur, even in tricky light,
+                        with an 18 Megapixel sensor that has up to 19x more surface area than many smartphones**.</p><br>
+                    <p>Social sharing, remote shooting</p>
+                    <p>Instantly transfer photos and movies to your smart device, for easy sharing
+                        on social media or cloud backup, and shoot remotely with Wi-Fi* and the
+                        Canon Connect app.</p><br>
+                    <p>Effortless Creativity</p>
+                    <p>Just frame and shoot for great results with Scene Intelligent Auto. Enjoy
+                        guided Live View shooting with Creative Auto mode and add unique finishes with Creative
+                        Filters.</p><br>
+                    <p>Shoot with confidence</p>
+                    <p>Capture the moment just as you remember it with precise auto focus, 3.0 fps
+                        and DIGIC 4+. Easily frame your shots with the optical viewfinder and see results on a 6.8 cm
+                        LCD screen.</p><br>
+                    <p>Price : $529.99</p>
+                </div>
+                <img class="canon1" src="images/canon1.png" alt="EOS Rebel T100" width="300" height="300">
+            </fieldset>
+            <fieldset>
+                <legend>EOS Rebel T7i</legend>
+                <div class="EOS Rebel T7i">
+                    <h4>EOS Rebel T7i</h4>
+                    <p>Optical Viewfinder with a 45-point All Cross-type AF System*</p>
+                    <p>Fast & Accurate Dual Pixel CMOS AF with Phase-detection</p>
+                    <p>24.2 Megapixel CMOS (APS-C) Sensor</p>
+                    <p>DIGIC 7 Image Processor, ISO 100-25600</p>
+                    <p>Built-in Wi-Fi**, NFC*** and Bluetooth^</p>
+                    <p>Vari-angle Touch Screen, 3.0-inch LCD</p>
+                    <p>Feature Assistant</p>
+                    <p>Movie Electronic IS</p>
+                    <p>HDR Movie & Time-Lapse Movie</p>
+                    <p>Creative Filters for Still Images and Video</p>
+                    <p>High-speed Continuous Shooting at up to 6.0 fps</p>
+                    <p>Price : $1,399.99</p>
+                </div>
+                <img class="canon2" src="images/Canon2.png" alt="EOS Rebel T100" width="300" height="300">
+            </fieldset>
+            <fieldset>
+                <legend>EOS Rebel T6i</legend>
+                <div class="EOS Rebel T6i">
+                    <h4>EOS Rebel T6i</h4>
+                    <p>A Big Sensor for Gorgeous Images</p>
+                    <p>Built-in Wi-Fi® & NFC for Simple Uploads and Sharing</p>
+                    <p>Sophisticated, Automated Movie Recording</p>
+                    <p>Faster Focus, Improved Tracking</p>
+                    <p>Sharp and Clear with Tactile Controls</p>
+                    <p>Fast-Action Shots are Easy to Capture</p>
+                    <p>Intelligent Scene Analysis for Exceptional Results</p>
+                    <p>Consistent, High Performance AF</p>
+                    <p>Simple to Preview, Easy to Shoot</p>
+                    <p>Price : $1,199.99</p>
+                    <p>This product has either been removed or is no longer available for sale.</p>
+                </div>
+                <img class="canon3" src="images/Canon3.png" alt="EOS Rebel T6i" width="300" height="300">
+            </fieldset>
+            <fieldset>
+                <legend>EOS Rebel SL2</legend>
+                <div class="EOS Rebel SL2">
+                    <h4>EOS Rebel SL2</h4>
+                    <p>24.2 Megapixel CMOS (APS-C) Sensor</p>
+                    <p>Fast & Accurate Dual Pixel CMOS AF with Phase-detection</p>
+                    <p>Vari-angle Touch Screen, 3.0-inch LCD</p>
+                    <p>Built-in Wi-Fi®*, NFC**and Bluetooth®*** Technology</p>
+                    <p>Full HD 60p & External Microphone Input</p>
+                    <p>DIGIC 7 Image Processor, ISO 100–25600</p>
+                    <p>Optical viewfinder with a 9-point AF System</p>
+                    <p>Feature Assistant</p>
+                    <p>Small and lightweight body</p>
+                    <p>Price : $899.99</p>
+                </div>
+                <img class="canon4" src="images/Canon4.png" alt="EOS Rebel SL2" width="300" height="300">
+            </fieldset>
+            <fieldset>
+                <legend>EOS Rebel T6</legend>
+                <div class="EOS Rebel T6">
+                    <h4>EOS Rebel T6</h4>
+                    <p>18.0 Megapixel CMOS (APS-C) image sensor and high-performance DIGIC 4+ Image Processor for
+                        excellent speed and quality</p>
+                    <p>ISO 100-6400 (expandable to H: 12800) for shooting from bright light to low light</p>
+                    <p>Built-in Wi-Fi* and NFC** connectivity provide easy sharing to compatible smart devices,
+                        select social media sites and the Canon Connect Station CS100 device</p>
+                    <p>9-point AF system (including one centre cross-type AF point) a
+                        nd AI Servo AF provide impressive autofocus performance with accurate results</p>
+                    <p>High-performance Optical Viewfinder helps facilitate quick
+                        and accurate focusing by firmly framing and capturing the subject at hand</p>
+                    <p>Large, 3.0-inch LCD monitor with 920,000 dots shows fine details and provides easy viewing</p>
+                    <p>Scene Intelligent Auto mode simplifies settings for users without extensive photography
+                        experience</p>
+                    <p>Feature Guide offers short descriptions of shooting modes, settings and effects for easy
+                        operation</p>
+                    <p>Full HD Movie mode for easy-to-use video capture</p>
+                    <p>Continuous shooting up to 3.0 fps to capture action shots</p>
+                    <p>Creative options made easy with imaging features like Basic+ and Creative Auto</p>
+                    <p>Creative Filters including Toy Camera, Fisheye and Miniature Effect
+                        help you capture everything with a new perspective</p>
+                    <p>Auto White Balance provides "white priority," adjusting for the warmer tones under tungsten
+                        lighting</p>
+                    <p>Compatible with the full line of Canon EF and EF-S lenses</p>
+                    <p>Price : $649.99</p>
+                </div>
+                <img class="canon5" src="images/Canon5.png" alt="EOS Rebel T6" width="300" height="300">
+            </fieldset>
+            <fieldset>
+                <legend>EOS Rebel T5</legend>
+                <div class="EOS Rebel T5">
+                    <h4>EOS Rebel T5</h4>
+                    <p>High Resolution Photos and Video.</p>
+                    <p>18.0 Megapixel CMOS (APS-C) Sensor</p>
+                    <p>DIGIC 4 Image Processor</p><br>
+                    <p>True HD Performance, Rebel Simplicity.</p>
+                    <p>EOS Full HD Movie</p><br>
+                    <p>Movie Recording Information</p>
+                    <p>Movie Recording Size: Full HD (1920x1080)</p>
+                    <p>Movie Recording Size: HD (1280x720)</p>
+                    <p>Movie Recording Size: SD (640x480)</p><br>
+                    <p>Complex Functions Made Simple.</p>
+                    <p>Scene Intelligent Auto mode</p><br>
+                    <p>Photography Made Truly Easy</p><br>
+                    <p>Responsive and Speedy Across the Board.</p>
+                    <p>Up to 3.0 fps Continuous Shooting</p><br>
+                    <p>See the Image on a Large Display.</p>
+                    <p>Large 3.0-inch LCD Monitor</p><br>
+                    <p>Additional Features.</p>
+                    <p>Compatible with GPS Receiver GP-E2</p>
+                    <p>Price : $579.99</p>
+                </div>
+                <img class="canon6" src="images/canon6.png" alt="EOS Rebel T5" width="300" height="300">
+            </fieldset>
+
+
+        </div>
+    </main>
+    <footer>
+
+        <div id="wrapper5">
+            <div id="w5-1">
+                Eguide
+            </div>
+
+            <div id="w5-2">
+                Press<br><br>
+                Contact<br><br>
+                Follow Us<br>
+
+            </div>
+
+            <div id="w5-3">
+                Legal
+                <p id="legal">Terms<br>
+                    Privacy
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

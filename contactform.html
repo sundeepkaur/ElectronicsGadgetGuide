@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form Page</title>
+    <meta charset="UTF-8">
+
+    <!--/**
+  * Meta Tag
+  */-->
+
+    <meta name="description" content="Contact Form Page message displayed to user">
+    <meta name="keywords" content="contact form">
+
+    <!--/**
+     Links to external css file and normalise.css file
+    */-->
+
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/contactform.css">
+
+</head>
+<body>
+<div id="header">
+
+    <!-- /**
+     * Div tag with div containing heading tag and navigation bar at top of the page
+     */-->
+
+    <div class="topLeftHeading">
+        <h2>EGuide</h2>
+    </div>
+    <nav>
+        <ul>
+            <li><a class="bar" href="guide.html">Home</a></li>
+            <li><a class="bar" href="categories.html">Categories</a></li>
+            <li><a class="bar" href="comparison.html">Compare</a></li>
+            <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+            <li><a class="bar" href="faqs.html">FAQs</a></li>
+            <li><a class="bar" href="register.html">Register</a></li>
+            <li><a class="bar" href="login.html">Log in</a></li>
+            <li><a class="bar" href="support.html">Support</a></li>
+            <li><a class="bar" href="main.html">Feedback</a></li>
+            <li><a class="bar" href="customerService.html">Contact Us</a></li>
+            <li><a class="bar" href="index.html">About</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="wrapper">
+
+    <!--/**
+    * main div tag contains the message displayed to user
+    */-->
+    <div id="result"></div>
+</div>
+
+<!--/**
+* Footer is divided into three different divs , where each div displays some information
+*/-->
+
+<footer>
+    <div id="wrapper5">
+        <div id="w5-1">
+            Eguide
+        </div>
+        <div id="w5-2">
+            Press<br><br>
+            Contact<br><br>
+            Follow Us<br>
+        </div>
+        <div id="w5-3">
+            Legal<br><br>
+            Terms<br><br>
+            Privacy<br>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var user = localStorage.getItem('user2');
+    console.log(user);
+    document.getElementById('result').innerHTML = "Thank you " + localStorage.getItem('firstname').fontcolor("orange").fontsize(35) + " for submitting the message, we will contact you soon.";
+</script>
+
+</body>
+</html>

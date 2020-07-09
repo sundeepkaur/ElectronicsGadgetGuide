@@ -1,0 +1,197 @@
+/* basic setup */
+* {
+    margin: 0;
+    padding: 0; }
+
+html { background-color:white; }
+
+
+/* the styles for the header, main content and footer */
+
+#wrapper {
+    background-color: white;
+    font-family: sans-serif;
+    display: grid;
+    width: 1515px;
+    grid-template-rows: 90px 950px;
+}
+
+/* the styles for the headers heading */
+
+#wrapper1
+{
+    background-color: #00628B;
+    height: 55px;
+    width: 1515px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper1 .topLeftHeading{
+    float: left;
+    color: #E6E6DC;
+    padding: 3px 26px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/* the styles for the headers navigation bar */
+
+#wrapper1 nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 3%;
+    justify-content: flex-end;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#wrapper1 nav ul li a,
+#wrapper1 nav ul li a:after,
+#wrapper1 nav ul li a:before {
+    transition: all .5s;
+}
+
+#wrapper1 nav ul li a:hover {
+    color: #E6E6DC;
+    text-decoration: underline;
+}
+
+.con:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+
+.bar{
+    color:#81A594;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* the styles for the image slideshow */
+
+#image {
+    margin-top: .5em;
+    text-align: center;
+    background-color: white;
+}
+
+#button1{
+    float: left;
+    margin-left: 294px;
+    border: 1px solid white;
+    background-color: white;
+    color: #81A594;
+}
+
+#button2{
+    float: right;
+    margin-right: 294px;
+    border: 1px solid white;
+    background-color: white;
+    color:#81A594;
+}
+
+#mainContent{
+    margin-top: 4em;
+}
+
+#mainContent div {
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    position: relative;
+    -webkit-animation: mymove 22s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 22s infinite;
+    color: navy;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Safari 4.0 - 8.0 */
+#mainContent div {-webkit-animation-timing-function: linear;}
+
+/* Standard syntax */
+#mainContent div {animation-timing-function: linear;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 1515px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1515px;}
+}
+
+#mainContent img{
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#mainContent img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#mainContent figcaption{
+    text-align: center;
+}
+
+#mainContent figure {
+    display: inline-block;
+
+    margin: 20px; /* adjust as needed */
+}
+
+#mainContent figure img {
+    vertical-align: top;
+}
+
+#mainContent figure figcaption {
+
+    text-align: center;
+}
+
+/* the styles for the footer */
+
+#wrapper5{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00628B;
+    height:10em;
+    border-top-style: solid;
+    border-top-color: #81A594;
+    color:#81A594;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+#w5-1{
+    font-size:30px;
+    font-weight:bold;
+    padding-top:20px;
+    padding-left:20px;
+    width:900px;
+}
+
+#w5-2{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}
+#w5-3{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}

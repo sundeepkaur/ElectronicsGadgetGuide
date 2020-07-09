@@ -1,0 +1,132 @@
+body{
+    background-color:#E6E6DC
+}
+header{
+    font-weight:bold;
+    font-size:28px;
+    display:block;
+    padding-top:10px;
+}
+#wrapper1
+{
+    background-color:#00628B;
+    height:40px;
+    box-shadow: 1px 1px 1px 1px #81A594;
+    margin:0 auto;
+    border-bottom-style: solid;
+    border-bottom-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper2{
+    background-color:#E6E6DC;
+    height:80px;
+    margin:0 auto;
+    color:#81A594;
+    text-align: center;
+    font-size: 40px;
+    border-bottom-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper3,#wrapper4{
+    background-color:#E6E6DC;
+    height:250px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    padding:45px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height:220px;
+    width:220px;
+}
+.con{
+    transition: box-shadow .3s;
+    background-color:#E6E6DC;
+    text-align:center;
+    border-style: solid;
+    border-color:#00628B;
+    border-width: thin;
+}
+
+
+.bar{
+    color:#81A594;
+    text-decoration: none;
+    font-weight:bold;
+    display:block;
+    padding-left:10px;
+    padding-top:10px;
+}
+h4{
+    margin-top:0px;
+    color:#81A594;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding-left:500px;
+    padding-right:3%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction:row;
+    
+}
+p{
+    font-size:20px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #E6E6DC;
+}
+.con:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+  }
+
+#space{
+height:150px;
+}
+
+#wrapper5{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00628B;
+    height:140px;
+    border-top-style: solid;
+    border-top-color: #81A594;
+    color:#81A594;
+    display:flex;
+    flex-direction: row;
+}
+#w5-1{
+    font-size:30px;
+    font-weight:bold;
+    padding-top:20px;
+    padding-left:20px;
+    width:900px;
+}
+
+#w5-2{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}
+#w5-3{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:500px;
+}
+#legal{
+    font-size:15px;
+    padding:0px;
+    margin-top:10px;
+}
+  
+  

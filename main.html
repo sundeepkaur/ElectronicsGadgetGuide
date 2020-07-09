@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Give a feedback</title>
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="icon" href="icon.jpg">
+
+</head>
+
+<div id="wrapper1">
+    <nav>
+        <ul id="list">
+                <li><a class="bar" href="guide.html">Home</a></li>
+                <li><a class="bar" href="categories.html">Categories</a></li>
+                <li><a class="bar" href="comparison.html">Compare</a></li>
+                <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                <li><a class="bar" href="faqs.html">FAQs</a></li>
+                <li><a class="bar" href="register.html">Register</a></li>
+                <li><a class="bar" href="login.html">Log in</a></li>
+                <li><a class="bar" href="support.html">Support</a></li>
+                <li><a class="bar" href="main.html">Feedback</a></li>
+                <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                <li><a class="bar" href="index.html">About</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="timing">
+    <script>
+        const today = new Date();
+        document.write("Today is ");
+        document.write(today.toDateString());
+    </script>
+    <script type="text/javascript">
+        function startTime()
+        {
+            var today=new Date();
+            var h=today.getHours();
+            var m=today.getMinutes();
+            var s=today.getSeconds();
+
+            m=checkTime(m);
+            s=checkTime(s);
+            document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+            t = setTimeout('startTime()', 500);
+        }
+
+        function checkTime(i)
+        {
+            if (i<10)
+            {i="0" + i}
+            return i
+        }
+    </script>
+
+    <body onload="startTime()">
+    <div id="txt"></div>
+    </body>
+</div>
+<body>
+    <form action ="process.html" method="get">
+        <h1>Give a feedback</h1>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <div>
+                <p>Are you satisfied with our website</p>
+                <input type="radio" name="hear" id="yes" value="yes" > <label for="yes">Yes</label><br>
+                <input type="radio" name="hear" id="no" value="no"> <label for="no">No</label><br>
+                <input type="radio" name="hear" id="justsoso " value="justsoso" > <label for="justsoso ">Just so so </label>
+            </div>
+            <div>
+                <p>Which part do you think we need to improve</p>
+                <label>
+                    <select name="Improve">
+                        <optgroup label="electronic products">
+                            <option value="phone" >Phone</option>
+                            <option value="laptop" >Laptop</option>
+                            <option value="tv">TV</option>
+                            <option value="camera">Camera</option>
+                            <option value="others">Others</option>
+                        </optgroup>
+                        <optgroup label="website">
+                            <option value="content">Content</option>
+                            <option value="layout" >Layout</option>
+                            <option value="background music">Background music</option>
+
+                        </optgroup>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <p>Would you like to receive announcements about new products and special offers?</p>
+                <input type="checkbox" id="answer" value="answer" name="answer">
+                <label for="answer">YES, I'd like to receive information about new products and special offers.</label>
+
+            </div>
+            <div id="comment">
+                Comment : <br />
+                <label for="comments"></label><textarea id="comments" name="comments" rows="8" cols="60"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your contact information</legend>
+
+                <label for="email">Your email address:</label>
+                <input type="email" name="email" id="email" ><br><br>
+                Phone number:
+                <input type="text" name="phonenumber"
+                          pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                          title="Must be xxx-xxx-xxxx"><br>
+        </fieldset>
+
+        <fieldset id="point">
+                <legend>Submit your feedback</legend>
+                    <label>
+                        <input type="submit" id="submit" value="Submit">
+                        <input type="reset" id="reset" value="Reset Fields"><br>
+                    </label>
+        </fieldset>
+</form>
+
+    <footer>
+
+        <div id="wrapper5">
+            <div id="w5-1">
+                Eguide
+            </div>
+
+            <div id="w5-2">
+                Press<br><br>
+                Contact<br><br>
+                Follow Us<br>
+
+            </div>
+
+            <div id="w5-3">
+                Legal
+                <p id="legal">Terms<br>
+                    Privacy
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>

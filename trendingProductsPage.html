@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trending Products Page</title>
+    <meta charset="UTF-8">
+
+    <!--/**
+   * Meta Tag
+   */-->
+
+    <meta name="description" content="Trending products Page with different images and links to navigate to other pages">
+    <meta name="keywords" content="contact us , home, blog , about us">
+
+    <!--/**
+     Links to external css file and normalise.css file
+    */-->
+
+    <link rel="shortcut icon" href="images/images.png">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/trendingProducts.css">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <!-- /**
+     * Div tag with div containing Website heading and navigation bar at top of the page
+     */-->
+
+    <div id="wrapper1">
+        <div class="topLeftHeading">
+            <h2>EGuide</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="bar" href="guide.html">Home</a></li>
+                <li><a class="bar" href="categories.html">Categories</a></li>
+                <li><a class="bar" href="comparison.html">Compare</a></li>
+                <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                <li><a class="bar" href="faqs.html">FAQs</a></li>
+                <li><a class="bar" href="register.html">Register</a></li>
+                <li><a class="bar" href="login.html">Log in</a></li>
+                <li><a class="bar" href="support.html">Support</a></li>
+                <li><a class="bar" href="main.html">Feedback</a></li>
+                <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!--/**
+    * main div tag contains the image slideshow, and various images of trending products for our website
+    */-->
+
+    <div id="main">
+
+        <div id="image">
+            <img src="images/1L.jpg" id="slideShow" height="400" width="900" alt="Test image" />
+        </div>
+        <div>
+            <button id="button1" onclick="changeImage(-1)">Previous</button>
+            <button id="button2" onclick="changeImage(1)">Next</button>
+        </div>
+        <div id="mainContent">
+            <div>Trending Products</div>
+            <a href="">
+                <figure>
+                    <a href="mobiles(subcategory).html"><img alt="" src="images/iphonexs.jpg" width="200" height="250"></a>
+                    <figcaption>iphone XS</figcaption>
+
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img alt="" src="images/lg.jpg" width="200" height="250">
+                    <figcaption>LG G6</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img alt="" src="images/ipad.jpg" width="200" height="250">
+                    <figcaption>ipad Pro</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img alt="" src="images/xperia.jpg" width="200" height="250">
+                    <figcaption>Xperia XZ1</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img alt="" src="images/canon.jpg" width="200" height="250">
+                    <figcaption>canon 70D</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img alt="" src="images/sony.jpg" width="200" height="250">
+                    <figcaption>Sony DSCHX350</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img alt="" src="images/iphone8.png" width="200" height="250">
+                    <figcaption>iphone8 64gb</figcaption>
+                </figure>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<!--/**
+* Footer using footer div tag
+*/-->
+
+<footer>
+    <div id="wrapper5">
+        <div id="w5-1">
+            Eguide
+        </div>
+        <div id="w5-2">
+            Press<br><br>
+            Contact<br><br>
+            Follow Us<br>
+        </div>
+        <div id="w5-3">
+            Legal<br><br>
+            Terms<br><br>
+            Privacy<br>
+        </div>
+    </div>
+</footer>
+
+<!--/**
+ Link to external js file
+*/-->
+
+<script src="javascript/trendingProducts.js"></script>
+</body>
+
+</html>

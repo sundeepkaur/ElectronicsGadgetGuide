@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mobiles</title>
+    <link rel="stylesheet" href="css/browse.css">
+    <link rel="stylesheet" href="css/mobiles(sub).css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <script>
+        var images = ['images/iphone1.jpg', 'images/iphone2.jpg', 'images/iphone3.jpg', 'images/iphone4.jpg', 'images/iphone5.jpg']
+        var i = 0;
+        function pictureChangeRight() {
+            if (i < images.length - 1)
+                i = i + 1;
+            document.getElementById("iphonepic").src = images[i];
+        }
+        function pictureChangeLeft() {
+            if (i >= 0 + 1)
+                i = i - 1;
+            document.getElementById("iphonepic").src = images[i];
+        }
+    </script>
+
+    <div id="wrapper1">
+        <nav>
+            <ul id="ul1">
+                    <li><a class="bar" href="guide.html">Home</a></li>
+                    <li><a class="bar" href="categories.html">Categories</a></li>
+                    <li><a class="bar" href="comparison.html">Compare</a></li>
+                    <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                    <li><a class="bar" href="faqs.html">FAQs</a></li>
+                    <li><a class="bar" href="register.html">Register</a></li>
+                    <li><a class="bar" href="login.html">Log in</a></li>
+                    <li><a class="bar" href="support.html">Support</a></li>
+                    <li><a class="bar" href="main.html">Feedback</a></li>
+                    <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                    <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="wrapper2">
+        <header>
+            Mobile Phones
+        </header>
+    </div>
+    <main>
+
+
+        <div id="wrapper3">
+            <h3>2</h3>
+            <h4>&nbsp;&nbsp;&nbsp; Iphone Xs</h4>
+            <img src="images/iphone.jpg" class="imgframe" alt="iphone">
+            <p>The Iphone Xs is the latest iphone released by Apple and it is for the most part a small upgrade over
+                the
+                the Iphone X released last year. It boasts an improved A12 processor and a better camera.</p>
+
+            <table>
+                <tr>
+                    <th colspan="3" style="font-size:20px;">
+                        Specifications
+                    </th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th class="til">Iphone Xs</th>
+                    <th class="til">Iphone X</th>
+                </tr>
+
+                <tr>
+                    <td class="til">Price</td>
+                    <td>$999</td>
+                    <td>$999</td>
+                </tr>
+                <tr>
+                    <td class="til">Processor</td>
+                    <td>A12 Bionic</td>
+                    <td>A11 Bionic</td>
+                </tr>
+                <tr>
+                    <td class="til">Screen</td>
+                    <td>5.8-inch OLED (2,436 x 1,125 pixels)</td>
+                    <td>5.8-inch OLED (2,436 x 1,125 pixels)</td>
+                </tr>
+                <tr>
+                    <td class="til">Storage</td>
+                    <td>64GB, 256GB, 512GB</td>
+                    <td>64GB, 256GB</td>
+                </tr>
+                <tr>
+                    <td class="til">Rear Camera</td>
+                    <td>Dual 12MP wide (ƒ/1.8) and telephoto (ƒ/2.4)</td>
+                    <td>Dual 12MP wide (ƒ/1.8) and telephoto (ƒ/2.4)</td>
+                </tr>
+                <tr>
+                    <td class="til">Front Camera</td>
+                    <td>7MP, ƒ/2.2</td>
+                    <td>7MP, ƒ/2.2</td>
+                </tr>
+                <tr>
+                    <td class="til">Colors</td>
+                    <td>Gold, Silver, Space Gray</td>
+                    <td>Silver, Space Gray</td>
+                </tr>
+                <tr>
+                    <td class="til">Weight</td>
+                    <td>6.2 ounces</td>
+                    <td>6.1 ounces</td>
+                </tr>
+
+            </table>
+        </div>
+        <p id="galtil">Gallery</p>
+
+        <div id="gallery">
+            <img src="images/iphone1.jpg" id="iphonepic" alt="iphone_picture">
+            <input type="button" id="leftB" value="left" onclick="pictureChangeLeft()">
+            <input type="button" id="rightB" value="right" onclick="pictureChangeRight()">
+        </div>
+
+        <div id="wrapper4">
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="wrapper5">
+            <div id="w5-1">
+                Eguide
+            </div>
+
+            <div id="w5-2">
+                Press<br><br>
+                Contact<br><br>
+                Follow Us<br>
+
+            </div>
+
+            <div id="w5-3">
+                Legal
+                <p id="legal">Terms<br>
+                    Privacy
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

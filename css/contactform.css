@@ -1,0 +1,107 @@
+/* basic setup */
+* {
+    margin: 0;
+    padding: 0; }
+
+html { background-color:white; }
+
+
+/* the styles for the header, main content and footer */
+
+/* the styles for the header */
+
+#header
+{
+    background-color:#00628B;
+    height: 3.5em;
+    width:100%;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header .topLeftHeading{
+    float: left;
+    color: #E6E6DC;
+    padding: 3px 26px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/* the styles for the headers navigation bar */
+
+#header nav ul{
+    list-style-type: none;
+    margin:0;
+    padding-right:3%;
+    justify-content: flex-end;
+    font-size: 18px;
+    display: flex;
+    flex-direction:row;
+
+}
+
+#header nav ul li a:hover {
+    color: #E6E6DC;
+    text-decoration: underline;
+}
+
+.con:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+
+.bar{
+    color:#81A594;
+    text-decoration: none;
+    font-weight:bold;
+    display:block;
+    padding-left: 20px;
+    padding-top:15px;
+}
+
+/* the styles for the wrapper containing main content */
+
+#wrapper {
+    background-color:#D4E6F1;
+    font-family: sans-serif;
+    padding-top: 5em;
+    padding-left: 3.5em;
+    font-size: 28px;
+    color:#81A666;
+    height: 12em;
+    width: 100%;
+}
+
+/* the styles for the footer */
+
+#wrapper5{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00628B;
+    height:10em;
+    border-top-style: solid;
+    border-top-color: #81A594;
+    color:#81A594;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+#w5-1{
+    font-size:30px;
+    font-weight:bold;
+    padding-top:20px;
+    padding-left:20px;
+    width:900px;
+}
+
+#w5-2{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}
+#w5-3{
+    font-size:20px;
+    font-weight:bold;
+    padding-top:20px;
+    width:600px;
+}

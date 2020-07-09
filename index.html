@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon.jpg">
+</head>
+<body>
+        <div id="wrapper1">
+        <nav>
+            <ul id="list">
+                    <li><a class="bar" href="guide.html">Home</a></li>
+                    <li><a class="bar" href="categories.html">Categories</a></li>
+                    <li><a class="bar" href="comparison.html">Compare</a></li>
+                    <li><a class="bar" href="trendingProductsPage.html">Trending</a></li>
+                    <li><a class="bar" href="faqs.html">FAQs</a></li>
+                    <li><a class="bar" href="register.html">Register</a></li>
+                    <li><a class="bar" href="login.html">Log in</a></li>
+                    <li><a class="bar" href="support.html">Support</a></li>
+                    <li><a class="bar" href="main.html">Feedback</a></li>
+                    <li><a class="bar" href="customerService.html">Contact Us</a></li>
+                    <li><a class="bar" href="index.html">About</a></li>
+            </ul>
+        </nav>
+        </div>
+        <h1>About</h1>
+
+        <main>
+            <h2>About our site</h2>
+                <div class="timing">
+                <script>
+                    const today = new Date();
+                    document.write("Today is ");
+                    document.write(today.toDateString());
+                </script>
+                <script type="text/javascript">
+                    function startTime()
+                    {
+                        var today=new Date();
+                        var h=today.getHours();
+                        var m=today.getMinutes();
+                        var s=today.getSeconds();
+
+                        m=checkTime(m);
+                        s=checkTime(s);
+                        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+                        t = setTimeout('startTime()', 500);
+                    }
+
+                    function checkTime(i)
+                    {
+                        if (i<10)
+                        {i="0" + i}
+                        return i
+                    }
+                </script>
+
+                    <body onload="startTime()">
+                    <div id="txt"></div>
+                    </body>
+                </div>
+            <p>Welcome to visit our Website.</p>
+            <p><strong>Application of ELECTRONIC GADGETS BUYING GUIDE WEBSITE:</strong></p>
+            <p><strong>1.Browse all products:</strong>You can browse all electronic products, including its parameters, prices
+                and which websites can get the cheapest prices.</p>
+            <p><strong>2.Browse products by category:</strong>You can view the product information you want by type selection.</p>
+            <p><strong>3.Favorites:</strong>You can collect this product to Favorite when browsing the product.
+                The next time you check the product again, you only need to enter Favorite to view it.</p>
+            <p><strong>4.Customer service:</strong>If you still have information about this product,
+                you can contact our staff through Customer service and query it.</p>
+            <p><strong>5.Faq’s:</strong>It can help you solve the problem of browsing the web, guide you to use our website.</p>
+            <p><strong>6.Trending Products:</strong>Here are the latest electronic products and some popular ones.</p>
+            <p><strong>7.Compare Products:</strong>When you look at an item, we can provide a comparison of the same type of product.</p>
+            <p><strong>8.Give a Feedback:</strong>If you have any questions or where we need to improve, contact us.</p>
+            <h3>Privacy statement:</h3>
+            <p>We attach great importance to protecting users' privacy. Please read this privacy statement carefully
+                before browsing this website and using this website's specific services.Use of this website means that
+                you agree with this privacy statement and agree that this website collects, USES and discloses your
+                personal information in accordance with this privacy statement.This privacy statement mainly includes
+                the following contents: when you visit this website, what information we collect from you;How we use
+                this information;Under what circumstances will we disclose such information;And your choice.</p>
+            <h4>Protection of minors' personal information:</h4>
+            <p><span class="notice">This website attaches great importance to the protection of minors' personal information.If you are a
+                minor under the age of 18, you should obtain the written consent of your parent or legal guardian
+                before using the service of this website.</span></p>
+
+        </main>
+            <footer>
+
+                <div id="wrapper5">
+                    <div id="w5-1">
+                        Eguide
+                    </div>
+
+                    <div id="w5-2">
+                        Press<br><br>
+                        Contact<br><br>
+                        Follow Us<br>
+
+                    </div>
+
+                    <div id="w5-3">
+                        Legal
+                        <p id="legal">Terms<br>
+                            Privacy
+                        </p>
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+</body>
+
+</html>
